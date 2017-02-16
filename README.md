@@ -5,7 +5,7 @@ This is a custom filter with Haskell Stack for writing a custom [Pandoc](http://
 ## Usage
 
 ```
-$ stack new my-filter (URL.hsfiles)
+$ stack new my-filter https://raw.githubusercontent.com/sky-y/stack-pandoc-filter/master/pandoc-filter.hsfiles
 $ cd my-filter
 $ stack setup
 (Write your custom filter in src/Main.hs)
